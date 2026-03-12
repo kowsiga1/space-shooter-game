@@ -1294,6 +1294,7 @@ export default class GameScene extends Phaser.Scene {
         explosion.play(anim);
         explosion.on('animationcomplete', () => explosion.destroy());
        console.log("new-space");
+       console.log("new-space-2");
         // Play explosion sound
         this.sounds.explosion.play();
 
